@@ -1,8 +1,3 @@
-# identicons.py
-Small library for generating identicons in python
-
-## Usage
-```py
 from identicons import Identicon
 
 # Create an Identicon generator
@@ -17,7 +12,3 @@ print(image_bytes)
 
 # Generate & save the identicon to a file
 generator.generate_to_file("Example", "example.png")
-```
-
-## Install
-`pip install identiconspy`
